@@ -1,0 +1,21 @@
+site_name : Phy 1203 - Physics (BGE)
+theme:
+  name: material
+  features: [navigation.sections, toc.integrate]
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+nav:
+  - Home: index.md
+  - Module 1 - Dynamical System:
+      - Rotational Kinematics: modules/01-dynamical-system/01-rotational-k.md
+  - Module 4 - Electric Charges and Current:
+      - Charges: modules/04-electric/01-charges.md
+      - Capacitance : modules/04-electric/02-capacitance.md
+      - Electric Current : modules/04-electric/03-current-ohm.md
